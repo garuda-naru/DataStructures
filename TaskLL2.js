@@ -11,7 +11,7 @@ class LinkeList {
         this.size = 0;
     }
 
-    isEmpty(){
+    isEmpty(){          
         return this.size === 0;
     }
 
@@ -19,3 +19,7 @@ class LinkeList {
         return this.size;
     }
 }
+
+const list = new LinkeList();
+console.log(list.isEmpty())
+console.log(list.getSize())
